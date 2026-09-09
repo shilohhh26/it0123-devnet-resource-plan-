@@ -1,0 +1,39 @@
+{
+  "student_name": "Rommel A Mercado",
+  "section": "TN32",
+  "ai_tool": "Claude (Anthropic)",
+  "entries": [
+    {
+      "use_case_id": "UC1",
+      "selected_resource_type": "always-on-sandbox",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/",
+      "ai_recommendation_summary": "Claude recommended an Always-On Sandbox because the team needs immediate shared access for read-only API practice without waiting for provisioning.",
+      "verification_status": "verified",
+      "rationale": "The official Sandbox documentation confirms Always-On environments are shared and available instantly for API exploration, but restrict administrative privileges, which matches this read-only, no-wait use case exactly."
+    },
+    {
+      "use_case_id": "UC2",
+      "selected_resource_type": "reservation-sandbox",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/faqs/",
+      "ai_recommendation_summary": "Claude recommended a Reservation Sandbox because the team needs private, administrative access to test configuration changes and can accept setup and VPN time.",
+      "verification_status": "partially-verified",
+      "rationale": "The Sandbox FAQ confirms reservation sandboxes are private with full administrative access, but the AI understated that setup normally takes fifteen to forty-five minutes, so I added that constraint to the rationale."
+    },
+    {
+      "use_case_id": "UC3",
+      "selected_resource_type": "learning-lab",
+      "official_evidence_url": "https://developer.cisco.com/learning/",
+      "ai_recommendation_summary": "Claude recommended a DevNet Learning Lab because the beginner needs guided, step-by-step instruction before attempting an independent API activity.",
+      "verification_status": "verified",
+      "rationale": "The DevNet Learning site describes self-paced, hands-on tutorials designed to teach API concepts before independent practice, which fits a beginner who needs structured guidance rather than an execution environment."
+    },
+    {
+      "use_case_id": "UC4",
+      "selected_resource_type": "code-exchange",
+      "official_evidence_url": "https://developer.cisco.com/codeexchange/",
+      "ai_recommendation_summary": "Claude recommended Cisco Code Exchange because the developer wants to review existing community and Cisco-maintained automation repositories before building a new solution.",
+      "verification_status": "partially-verified",
+      "rationale": "The AI first referred to this resource as Automation Exchange, but the official page confirms Automation Exchange was consolidated into Code Exchange, so I corrected the label to match current Cisco terminology."
+    }
+  ]
+}
