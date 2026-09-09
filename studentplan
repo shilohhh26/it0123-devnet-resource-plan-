@@ -1,7 +1,7 @@
 {
   "student_name": "Rommel A Mercado",
   "section": "TN32",
-  "ai_tool": "Chatgpt and Claude",
+  "ai_tool": "Claude (Anthropic)",
   "entries": [
     {
       "use_case_id": "UC1",
@@ -15,7 +15,7 @@
       "use_case_id": "UC2",
       "selected_resource_type": "reservation-sandbox",
       "official_evidence_url": "https://developer.cisco.com/docs/sandbox/faqs/",
-      "ai_recommendation_summary": "Chatgpt recommended a Reservation Sandbox because the team needs private, administrative access to test configuration changes and can accept setup and VPN time.",
+      "ai_recommendation_summary": "Claude recommended a Reservation Sandbox because the team needs private, administrative access to test configuration changes and can accept setup and VPN time.",
       "verification_status": "partially-verified",
       "rationale": "The Sandbox FAQ confirms reservation sandboxes are private with full administrative access, but the AI understated that setup normally takes fifteen to forty-five minutes, so I added that constraint to the rationale."
     },
@@ -31,7 +31,7 @@
       "use_case_id": "UC4",
       "selected_resource_type": "code-exchange",
       "official_evidence_url": "https://developer.cisco.com/codeexchange/",
-      "ai_recommendation_summary": "Chatgpt recommended Cisco Code Exchange because the developer wants to review existing community and Cisco-maintained automation repositories before building a new solution.",
+      "ai_recommendation_summary": "Claude recommended Cisco Code Exchange because the developer wants to review existing community and Cisco-maintained automation repositories before building a new solution.",
       "verification_status": "partially-verified",
       "rationale": "The AI first referred to this resource as Automation Exchange, but the official page confirms Automation Exchange was consolidated into Code Exchange, so I corrected the label to match current Cisco terminology."
     }
